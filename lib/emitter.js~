@@ -281,6 +281,6 @@ namePlaceHolder.DEFAULT_MAX_LISTENER = 10;
 if(typeof exports === "undefined"){
  eventEmitter=namePlaceHolder;
 }else{
- exports.eventEmitter=namePlaceHolder;
+exports.eventEmitter=namePlaceHolder;
 
 }
