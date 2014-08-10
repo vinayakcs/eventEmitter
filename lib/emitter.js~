@@ -1,6 +1,6 @@
     /**
      * @fileOverview An attempt to make a node cum browser compatible events.EventEmitter library of node.js . Tested in major browsers and node. 
-     * @author <a href="vinayakcs7@gmail.com">Vinayak</a>
+     * @author Vinayak CS
      * @version 0.0.1
      */
 

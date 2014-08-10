@@ -10,7 +10,7 @@ You can check out the jsdoc rendered page from comments or have a quick bite her
 ```
 eventEmitter.addListener(event,listener) AKA eventEmitter.on(event,listener)
 ```
-Adds listener to the end of the listener array for the mentioned event, returns eventEmitter object. This will also cause 'newListener' event to be triggered provided there is a listener subscribing for the same
+Adds listener to the end of the listener array for the mentioned event, returns eventEmitter object
 
 ```
 eventEmitter.once(event,listener)
@@ -46,7 +46,6 @@ Emit the event, causing invocation of all the subscribed listeners, an optional 
 [static] eventEmitter.listenerCount(eventEmitter,event)
 ```
 Returns the count of listeners subscribing for an event , for the given eventEmitter object
-
 
 How to use ?
 --------------------------------------
