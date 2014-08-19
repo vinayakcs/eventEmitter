@@ -1,7 +1,7 @@
 eventEmitter - Lets get that event emitted 
 ============
 
-An attempt to make a node(server) cum browser(client) compatible [events.EventEmitter](http://nodejs.org/api/events.html)  library of node.js . Tested in major browsers and node.
+An attempt to make a node(server) / browser(client) compatible [events.EventEmitter](http://nodejs.org/api/events.html)  library of node.js . Tested in major browsers and node.
 
 Description
 -------------------------------------
