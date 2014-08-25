@@ -262,7 +262,7 @@ return (i>0);
    */
 
 namePlaceHolder.listenerCount = function(emitter,event){
-	if((typeof emitter !== Object) || (typeof event !== "string")){
+	if((emitter === null) && (typeof event !== "string")){
 		throw new Error("listenerCount expects (Object,String) argument");
 	}
 	if(emitter.emitterEventList[event]){
